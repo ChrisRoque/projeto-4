@@ -1,0 +1,10 @@
+@use 'variaveis';
+
+.header {
+    padding: 5.6vw ;
+    &__title {
+        color: variaveis.$corTextoTitle;
+        text-align: center;
+        font-size: 80px;
+    }
+}

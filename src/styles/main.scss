@@ -1,0 +1,22 @@
+@use 'destaque';
+@use 'variaveis';
+@use 'faq';
+@use 'header';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: variaveis.$corDeFundo;
+}
+
+.image-negativo {
+    padding: 5.6vw;
+
+    img {
+        width: 100%;
+    }
+}
